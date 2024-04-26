@@ -20,6 +20,9 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <data android:scheme="@string/auth0Scheme" />
+                <data android:host="olimpiadas.eu.auth0.com" />
+                <data android:path="/android/io.ionic.starter/callback" />
             </intent-filter>
 
         </activity>
